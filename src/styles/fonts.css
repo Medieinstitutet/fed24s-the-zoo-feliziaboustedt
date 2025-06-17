@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Inter&family=Moo+Lah+Lah&display=swap');
+
+.font-chewy {
+    font-family: 'Chewy', cursive;
+}
+
+.font-moolahlah {
+    font-family: 'Moo Lah Lah', cursive;
+}
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
