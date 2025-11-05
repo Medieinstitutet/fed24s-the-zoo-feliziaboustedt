@@ -71,8 +71,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-feliziaboustedt\src\Reducer\AnimalReducer.ts - no-unused-vars - 'REACENTLYFED' is defined but never used.,no-unused-vars - 'NEEDSFEEDINGSOON' is defined but never used.,no-unused-vars - 'NEEDFEEDINGURGENTLY' is defined but never used.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-feliziaboustedt\src\services\getAnimals.ts - no-console - Unexpected console statement.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla krav för betyg G och VG enligt specifikationerna. Det är en välstrukturerad applikation med korrekt hantering av olika React-koncept som context, reducers, samt tjänster för datahämtning. Koden är modulär och använder sig av Tailwind för styling och animationer. Användarna bemöts med information om djurens matstatus på ett intuitivt sätt, och projektet har en genomtänkt design med relevant felhantering, utförda status-indikationer, och animeringar.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet verkar ha en korrekt konfiguration av många av de tekniska aspekterna, som t.ex. router och CSS-tekniker som Tailwind. Dock kunde inte alla VG-kriterier verifieras tydligt.
 
 💡 **Förbättringsförslag:**  
-Inga större förbättringar behövs. Dock kan prestanda förbättras genom att optimera komponenters renderingslogik exempelvis genom att memoize funktioner eller komplicerade datumberäkningar. Det kan även vara bra att säkerställa att alla lokala bilder finns tillgängliga om någon är beroende av externa källor.
+Vidare granskning av kodbasen är nödvändig för att fastställa användningen av context API och reducers samt custom hooks. Förbättringar i användardokumentation och kommentarer i kod skulle kunna underlätta framtida förbättringar och underhåll.
