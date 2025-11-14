@@ -69,8 +69,8 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-feliziaboustedt\src\Reducer\AnimalReducer.ts - no-unused-vars - 'REACENTLYFED' is defined but never used.,no-unused-vars - 'NEEDSFEEDINGSOON' is defined but never used.,no-unused-vars - 'NEEDFEEDINGURGENTLY' is defined but never used.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-feliziaboustedt\src\services\getAnimals.ts - no-console - Unexpected console statement.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för betyg VG med en välstrukturerad kodbas och korrekt implementerad funktionalitet. Användningen av context API och reducers visar på en djupare förståelse för React. Koden är exceptionellt väl implementerad, men betygsskalan tillåter endast VG som högsta betyg.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Koden är strukturerad och implementerar de nödvändiga funktionerna, såsom användning av en router för navigering, korrekt hantering av trasiga bildlänkar, och möjligheten att mata djur med korrekt tidslogik. Projektet använder också en annan teknik än ren CSS för styling, vilket uppfyller ett av kraven för betyget G. För att nå VG krävs användning av mer avancerade tekniker som context API och reducers.
 
 💡 **Förbättringsförslag:**  
-För att ytterligare förbättra projektet kan studenten fokusera på att minska kodupprepning genom att abstrahera gemensam logik till hjälpfunktioner. Dessutom kan användargränssnittet förbättras med mer subtila animeringar och bättre responsivitet för att förbättra användarupplevelsen.
+För att uppnå VG-betyg bör projektet använda context API istället för props för komponentkommunikation och reducers för state-hantering av djur. Implementering av en custom hook eller tjänster för datahämtning skulle också förbättra koden. Subtila animeringar vid interaktioner och sidladdningar skulle förbättra användarupplevelsen. Dessutom kan kodkvaliteten förbättras genom att minska kodupprepning och använda mer konsekventa naming conventions.
