@@ -69,8 +69,13 @@ Ha roligt, skratta och lär er massor!
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-feliziaboustedt\src\Reducer\AnimalReducer.ts - no-unused-vars - 'REACENTLYFED' is defined but never used.,no-unused-vars - 'NEEDSFEEDINGSOON' is defined but never used.,no-unused-vars - 'NEEDFEEDINGURGENTLY' is defined but never used.
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-feliziaboustedt\src\services\getAnimals.ts - no-console - Unexpected console statement.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller samtliga krav för betyg VG. Alla G-krav är uppfyllda och utöver det implementerar studenten både services för datahämtning och använder custom hooks för state-hantering【4:0†AnimalDetails.tsx.txt】 . Användning av context för komponentkommunikation och reducers för state management är också korrekt implementerade 【4:0†AnimalDetails.tsx.txt】. Projektet inkluderar dessutom subtala animeringar och hanterar bildfel korrekt  .
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G enligt uppgiften. Koden är välstrukturerad med en logisk organisation och följer etablerade konventioner för frontend-utveckling. Funktionaliteten är korrekt implementerad, inklusive användning av router, hantering av trasiga bildlänkar och användning av en annan teknik än ren CSS för styling. För att uppnå VG behöver projektet implementera mer avancerade tekniker som context, reducers och subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-Det kan vara fördelaktigt att inkludera ytterligare kommentarer i koden för att öka läsbarheten för nya utvecklare och framtida underhåll av applikationen. En ytterligare förbättring skulle kunna vara mer omfattande testning av olika UI-interaktioner, t.ex. att säkerställa att alla btn-animationsscenarier har testats ordentligt.
+För att uppnå VG kan följande förbättringar göras: 
+1. Implementera datahämtning med hjälp av tjänster eller en custom hook.
+2. Använd context istället för props för komponentkommunikation.
+3. Använd reducers för djurhantering istället för state.
+4. Implementera subtila animeringar vid klick på knappar och sidladdningar.
+5. Förbättra kodens läsbarhet genom att lägga till fler kommentarer och säkerställa konsekvent användning av naming conventions.
