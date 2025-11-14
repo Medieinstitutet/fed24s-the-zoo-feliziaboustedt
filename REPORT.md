@@ -66,11 +66,15 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 Ha roligt, skratta och lär er massor!
 
 ## 🔍 ESLint-varningar:
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-feliziaboustedt\src\Reducer\AnimalReducer.ts - no-unused-vars - 'REACENTLYFED' is defined but never used.,no-unused-vars - 'NEEDSFEEDINGSOON' is defined but never used.,no-unused-vars - 'NEEDFEEDINGURGENTLY' is defined but never used.
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-feliziaboustedt\src\services\getAnimals.ts - no-console - Unexpected console statement.
+- /app/repos/fed24s-the-zoo-feliziaboustedt/src/Reducer/AnimalReducer.ts - no-unused-vars - 'REACENTLYFED' is defined but never used.,no-unused-vars - 'NEEDSFEEDINGSOON' is defined but never used.,no-unused-vars - 'NEEDFEEDINGURGENTLY' is defined but never used.
+- /app/repos/fed24s-the-zoo-feliziaboustedt/src/services/getAnimals.ts - no-console - Unexpected console statement.
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Koden är strukturerad och implementerar de nödvändiga funktionerna, såsom användning av en router för navigering, korrekt hantering av trasiga bildlänkar, och möjligheten att mata djur med korrekt tidslogik. Projektet använder också en annan teknik än ren CSS för styling, vilket uppfyller ett av kraven för betyget G. För att nå VG krävs användning av mer avancerade tekniker som context API och reducers.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Projektet 'The Zoo' av Felizia Boustedt uppfyller alla krav för VG. Koden är välstrukturerad och följer etablerade konventioner för frontend-utveckling. Projektet använder en router korrekt med layouts och child-routes, och hanterar felaktiga bildlänkar på ett bra sätt. Data hämtas med en custom hook och context används för komponentkommunikation. Reducers används istället för state för att hantera djurens status, och subtila animeringar är implementerade vid interaktioner. Projektet visar också en god förståelse för CSS-tekniker och har en användarvänlig design.
 
 💡 **Förbättringsförslag:**  
-För att uppnå VG-betyg bör projektet använda context API istället för props för komponentkommunikation och reducers för state-hantering av djur. Implementering av en custom hook eller tjänster för datahämtning skulle också förbättra koden. Subtila animeringar vid interaktioner och sidladdningar skulle förbättra användarupplevelsen. Dessutom kan kodkvaliteten förbättras genom att minska kodupprepning och använda mer konsekventa naming conventions.
+Även om projektet är väl genomfört, kan det finnas utrymme för ytterligare förbättringar: 
+1. Öka antalet kommentarer i koden för att ytterligare förbättra läsbarheten och underlätta för andra utvecklare att förstå logiken. 
+2. Se över error handling för att säkerställa att alla potentiella fel är täckta, särskilt vid nätverksanrop. 
+3. Utför prestandaoptimeringar där det är möjligt, till exempel genom att använda memoization för att undvika onödiga renderingar av komponenter. 
+4. Fortsätt att utforska och implementera säkerhetsåtgärder, såsom att validera och sanera data som hämtas från externa API:er.
