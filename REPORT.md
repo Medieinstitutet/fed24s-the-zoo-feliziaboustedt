@@ -70,11 +70,7 @@ Ha roligt, skratta och lär er massor!
 - /app/repos/fed24s-the-zoo-feliziaboustedt/src/services/getAnimals.ts - no-console - Unexpected console statement.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet 'The Zoo' av Felizia Boustedt uppfyller alla krav för VG. Koden är välstrukturerad och följer etablerade konventioner för frontend-utveckling. Projektet använder en router korrekt med layouts och child-routes, och hanterar felaktiga bildlänkar på ett bra sätt. Data hämtas med en custom hook och context används för komponentkommunikation. Reducers används istället för state för att hantera djurens status, och subtila animeringar är implementerade vid interaktioner. Projektet visar också en god förståelse för CSS-tekniker och har en användarvänlig design.
+📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är exceptionellt väl implementerad med en välstrukturerad arkitektur som använder context och reducers effektivt för state management. Användningen av en router med layouts och child-routes är korrekt, och felhantering av trasiga bildlänkar är väl genomförd. Tailwind CSS används konsekvent för styling, vilket resulterar i en responsiv och estetiskt tilltalande design. Subtila animeringar förbättrar användarupplevelsen ytterligare. Trots att det finns utrymme för mindre förbättringar, såsom att lägga till fler kommentarer och använda en custom hook för datahämtning, är den övergripande kvaliteten på koden mycket hög.
 
 💡 **Förbättringsförslag:**  
-Även om projektet är väl genomfört, kan det finnas utrymme för ytterligare förbättringar: 
-1. Öka antalet kommentarer i koden för att ytterligare förbättra läsbarheten och underlätta för andra utvecklare att förstå logiken. 
-2. Se över error handling för att säkerställa att alla potentiella fel är täckta, särskilt vid nätverksanrop. 
-3. Utför prestandaoptimeringar där det är möjligt, till exempel genom att använda memoization för att undvika onödiga renderingar av komponenter. 
-4. Fortsätt att utforska och implementera säkerhetsåtgärder, såsom att validera och sanera data som hämtas från externa API:er.
+1. Förbättra kodens läsbarhet genom att lägga till fler kommentarer, särskilt i mer komplexa delar av koden, för att underlätta förståelse och underhåll. 2. Säkerställ enhetliga namnkonventioner för alla komponenter och funktioner för att förbättra kodens underhållbarhet. 3. Överväg att implementera en custom hook för datahämtning för att ytterligare förbättra separationen av concerns och återanvändbarhet av logik.
